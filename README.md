@@ -1,8 +1,8 @@
 ## youtube-playlist-react-native
 
 
-
-import React, { useState, useEffect } from 'react';
+```bash
+ import React, { useState, useEffect } from 'react';
 import { View, Text, Image, TouchableOpacity, FlatList, Modal, Dimensions } from 'react-native';
 import YouTube from 'react-native-youtube-iframe';
 
@@ -119,3 +119,5 @@ const youtube-playlist = () => {
 
 export default youtube-playlist;
 
+
+```
