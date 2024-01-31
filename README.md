@@ -27,7 +27,7 @@ const youtube-playlist = () => {
 
   useEffect(() => {
     const fetchPlaylistData = async () => {
-      const apiKey = 'AIzaSyDL3ZbF5ba0FyAmgmGqK5vwo0DRQtewX6U'; // Replace with your actual YouTube API key
+      const apiKey = 'AIza---------------'; // Replace with your actual YouTube API key
       const playlistId = 'PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU'; // Replace with your actual YouTube playlist ID
 
       const apiUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}${nextPageToken ? `&pageToken=${nextPageToken}` : ''}`;
@@ -107,7 +107,7 @@ const youtube-playlist = () => {
               play={true}
               fullscreen={true}
               loop={false}
-              apiKey="AIzaSyDL3ZbF5ba0FyAmgmGqK5vwo0DRQtewX6U" // Replace with your actual YouTube API key
+              apiKey="AIzaS---------------------" // Replace with your actual YouTube API key
               style={{ flex: 1, height: windowHeight }}
             />
           )}
